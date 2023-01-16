@@ -46,7 +46,7 @@ Vous pouvez aussi ajouter du html
 
 ```html
 <script>
-	notifier.push('Cliquer <b><a>ici</a></b> pour aller sur google', {
+	notifier.push('Cliquer <b><a href="https://google.com">ici</a></b> pour aller sur google', {
 		duration: 2000,
 		type: 'danger'
 	});
