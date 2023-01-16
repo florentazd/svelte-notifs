@@ -17,12 +17,12 @@ Creer un fichier .svelte et importer les modules comme suit:
 
 ### Main.svelte
 
-```javascript
+```typescript
 <script>
- import { notifier, Notifications } from 'svelte-notifs';
+    import { notifier, Notifications } from 'svelte-notifs';
 
     notifier.push("Hello world")
-    // or
+    // ou
     notifier.push("Hello world", {
         duration: 2000,
         type:"success"
