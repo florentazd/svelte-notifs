@@ -4,6 +4,7 @@ type toastOptions = {
     type: "danger" | "success" | "warning"
     duration: number
 }
+
 export const push = (text: string, options?: toastOptions) => {
     let id = 0;
 
@@ -23,6 +24,7 @@ export const push = (text: string, options?: toastOptions) => {
         })
     }, duration)
 }
+
 export const pop = () => {
     notifications.set([])
 }

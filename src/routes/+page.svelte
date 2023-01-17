@@ -11,18 +11,17 @@
             type:"success"
         })
         // ou
-        notifier.push("Hello world", {
-            duration: 3000,
+        notifier.push("Lorem ipsum dolor ", {
+            duration: 4000,
             type:"warning"
         })
         // ou
-        notifier.push("Hello world", {
-            duration: 2000,
+        notifier.push("Inscription échouée, veuillez rééssayer", {
+            duration: 5000,
             type:"danger"
         })
-        notifier.push('Cliquer <u><b><a>ici</a></b></u> pour aller sur google');
+        notifier.push('Cliquer <u><b><a href="https://google.com">ici</a></b></u> pour aller sur google');
     })
 </script>
 
 <Notifications />
-

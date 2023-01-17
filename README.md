@@ -40,6 +40,7 @@ Creer un fichier .svelte et importer les modules comme suit:
 </script>
 
 <Notifications />
+...
 ```
 
 Vous pouvez aussi ajouter du html
@@ -52,3 +53,5 @@ Vous pouvez aussi ajouter du html
 	});
 </script>
 ```
+
+Pour supprimer toutes les notifications, on utilise la fonction `pop()`

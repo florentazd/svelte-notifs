@@ -15,10 +15,14 @@ specifiers:
   prettier-plugin-svelte: ^2.8.1
   svelte: ^3.54.0
   svelte-check: ^3.0.1
+  svelte-notifs: ^0.0.2
   tailwindcss: ^3.2.4
   tslib: ^2.4.1
   typescript: ^4.9.3
   vite: ^4.0.0
+
+dependencies:
+  svelte-notifs: 0.0.2
 
 devDependencies:
   '@sveltejs/adapter-auto': 1.0.1_@sveltejs+kit@1.1.1
@@ -1805,6 +1809,10 @@ packages:
     dependencies:
       svelte: 3.55.1
     dev: true
+
+  /svelte-notifs/0.0.2:
+    resolution: {integrity: sha512-mNLHNZxomzSENwhn8YCApa6S05qozSjYoH/ANytws4+158G3W6yeo84cO+zN6VvgNXOCoija7UiRuDS29/Yp/g==}
+    dev: false
 
   /svelte-preprocess/5.0.0_oifjsu5oar4lzyaoppb2hxramu:
     resolution: {integrity: sha512-q7lpa7i2FBu8Pa+G0MmuQQWETBwCKgsGmuq1Sf6n8q4uaG9ZLcLP0Y+etC6bF4sE6EbLxfiI38zV6RfPe3RSfg==}
