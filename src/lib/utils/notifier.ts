@@ -1,8 +1,8 @@
 import { counter, notifications } from "$lib/stores/main"
 
 type toastOptions = {
-    type: "info" | "danger" | "success" | "warning"
-    duration: number
+    type?: "info" | "danger" | "success" | "warning"
+    duration?: number
 }
 
 export const push = (text: string, options?: toastOptions) => {

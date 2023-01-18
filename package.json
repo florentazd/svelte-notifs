@@ -1,6 +1,6 @@
 {
 	"name": "svelte-notifs",
-	"version": "0.0.5",
+	"version": "1.0.0",
 	"description": "Créer facilement des notifications pour vos applications.",
 	"repository": {
 		"type": "git",

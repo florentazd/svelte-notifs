@@ -1,8 +1,8 @@
 import { writable } from "svelte/store";
 
 type toastOptions = {
-    type: "info" | "danger" | "success" | "warning"
-    duration: number
+    type?: "info" | "danger" | "success" | "warning"
+    duration?: number
 }
 
 type notification = {
