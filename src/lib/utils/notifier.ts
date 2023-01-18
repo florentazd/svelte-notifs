@@ -1,7 +1,7 @@
 import { counter, notifications } from "$lib/stores/main"
 
 type toastOptions = {
-    type: "danger" | "success" | "warning"
+    type: "info" | "danger" | "success" | "warning"
     duration: number
 }
 

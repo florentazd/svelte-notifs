@@ -1,7 +1,7 @@
 import { writable } from "svelte/store";
 
 type toastOptions = {
-    type: "default" | "danger" | "success" | "warning"
+    type: "info" | "danger" | "success" | "warning"
     duration: number
 }
 

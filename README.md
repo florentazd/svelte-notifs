@@ -1,15 +1,25 @@
-# Usage
+# svelte-notifs
 
-Installer le paquet
+## Description
 
+Utiliser svelte-notfs pour afficher des notifications sur l'interface utilisateur
+
+### Installation
+
+`via NPM`
+
+```bash
+npm i svelte-notifs
 ```
-npm i -D svelte-notifs
-```
 
-Ensuite exporter depuis le paquet, les modules suivants:
+### Module a importer
+
+Le paquet contient les modules suivants:
 
 - `Notifications` Le composant svelte permettant d'afficher les notification
-- `notifier` Pour créer une notification
+- `notifier` Le module contenant les fonctions de notifications
+  - `push(text, options)` pour créer une nouvelle notification
+  - `pop()` Pour supprimer toutes les notifications
 
 ## Exemple
 
@@ -18,10 +28,16 @@ Creer un fichier .svelte et importer les modules comme suit:
 ### Main.svelte
 
 ```html
+<!-- Main.svelte ou +page.svelte -->
 <script>
 	import { notifier, Notifications } from 'svelte-notifs';
 
 	notifier.push('Hello world');
+	// ou
+	notifier.push('Hello world', {
+		duration: 2000,
+		type: 'info'
+	});
 	// ou
 	notifier.push('Hello world', {
 		duration: 2000,
